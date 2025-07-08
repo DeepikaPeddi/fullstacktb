@@ -1,0 +1,15 @@
+h1{
+    background-color: blanchedalmond;
+}
+h1,p {
+    font-style: italic;
+}
+* {
+     font-size: 20px;
+}
+.big-font-class {
+    border-radius: 50px;
+}
+#heading {
+    border-color: brown;
+}
