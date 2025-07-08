@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Styling</title>
+    <style>
+         * {
+            color: cadetblue;
+            text-align: center;
+             font-style: italic;
+            background-color:cornsilk;
+        }
+        #heading{
+            font-size: 100px;
+            color: white;
+        }
+        /* we use '#' to target element id */
+        .big-font-class {
+            font-size: 5rem; /*Applies to h2 and p tag*/
+        }
+        h1,h2{
+           font-size: 1rem;
+           border: 10px solid;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="heading">external styling</h1>
+    <h2 class="big-font-class">internal styling</h2>
+    <p class="big-font-class" style="background-color: lightblue;text-align: center;">
+        Styling is the process of applying visual design elements to a webpage
+    </p>
+    
+    
+</body>
+</html>
